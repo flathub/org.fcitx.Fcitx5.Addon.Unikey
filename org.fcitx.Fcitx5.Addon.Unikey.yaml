@@ -2,7 +2,7 @@ app-id: org.fcitx.Fcitx5.Addon.Unikey
 branch: stable
 runtime: org.fcitx.Fcitx5
 runtime-version: stable
-sdk: org.kde.Sdk//5.15-21.08
+sdk: org.kde.Sdk//5.15-22.08
 build-extension: true
 appstream-compose: false
 separate-locales: false
@@ -22,7 +22,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/fcitx/fcitx5-unikey
-        tag: 5.0.11
+        tag: 5.1.1
     post-install:
       - appstream-compose --basename=org.fcitx.Fcitx5.Addon.Unikey --prefix=${FLATPAK_DEST}
         --origin=flatpak org.fcitx.Fcitx5.Addon.Unikey
