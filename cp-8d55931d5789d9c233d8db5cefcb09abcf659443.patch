@@ -1,0 +1,26 @@
+From 8d55931d5789d9c233d8db5cefcb09abcf659443 Mon Sep 17 00:00:00 2001
+From: Weng Xuetian <wengxt@gmail.com>
+Date: Fri, 8 Mar 2024 09:22:16 -0800
+Subject: [PATCH] add developer tag
+
+---
+ org.fcitx.Fcitx5.Addon.Unikey.metainfo.xml.in | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/org.fcitx.Fcitx5.Addon.Unikey.metainfo.xml.in b/org.fcitx.Fcitx5.Addon.Unikey.metainfo.xml.in
+index 43a428c..183f0dd 100644
+--- a/org.fcitx.Fcitx5.Addon.Unikey.metainfo.xml.in
++++ b/org.fcitx.Fcitx5.Addon.Unikey.metainfo.xml.in
+@@ -6,8 +6,12 @@
+   <project_license>GPL-2.0+ and LGPL-2.0+</project_license>
+   <name>Unikey</name>
+   <summary>Vietnamese input method</summary>
++  <developer id="org.fcitx-im">
++      <name>The Fcitx Team</name>
++  </developer>
+   <url type="homepage">https://fcitx-im.org</url>
+   <url type="bugtracker">https://github.com/fcitx/fcitx5-unikey/issues</url>
++  <url type="vcs-browser">https://github.com/fcitx/fcitx5-unikey</url>
+   <project_group>Fcitx</project_group>
+   <releases>
+     <release version="5.1.3" date="2024-02-28"/>
